@@ -1,0 +1,138 @@
+@media screen and (min-width: 375px) {
+  .footer {
+    background-color: var(--text-body);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; }
+    .footer .contacts .contacts-logo {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 48px; }
+      .footer .contacts .contacts-logo .contacts-logo-img {
+        max-width: 221px;
+        height: auto;
+        object-fit: cover;
+        object-position: center; }
+      .footer .contacts .contacts-logo .contacts-p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: var(--base-white); }
+    .footer .contacts .contacts-nav {
+      list-style: none;
+      padding-inline-start: 0px;
+      color: var(--base-white);
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      margin: 48px 0; }
+      .footer .contacts .contacts-nav .sitemap {
+        margin-bottom: 15px;
+        font-family: "Libre Baskerville", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--base-white); }
+      .footer .contacts .contacts-nav .home,
+      .footer .contacts .contacts-nav .visit,
+      .footer .contacts .contacts-nav .exhibitions,
+      .footer .contacts .contacts-nav .programs,
+      .footer .contacts .contacts-nav .store,
+      .footer .contacts .contacts-nav .membership {
+        margin: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--base-white); }
+      .footer .contacts .contacts-nav a {
+        text-decoration: none;
+        color: var(--base-white);
+        text-align: center; }
+        .footer .contacts .contacts-nav a::after {
+          position: absolute;
+          content: "";
+          background-color: #fff;
+          bottom: -5px;
+          left: 0;
+          width: 0%;
+          height: 2px;
+          transition: 0.3s ease all; }
+        .footer .contacts .contacts-nav a:hover::after {
+          width: 100%; }
+    .footer .contacts .socials {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 48px; }
+      .footer .contacts .socials .social-span {
+        font-family: "Libre Baskerville", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--base-white);
+        margin-bottom: 20px; }
+      .footer .contacts .socials .social-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center; }
+        .footer .contacts .socials .social-container .twitter, .footer .contacts .socials .social-container .facebook, .footer .contacts .socials .social-container .linkedin, .footer .contacts .socials .social-container .mail {
+          width: 24px;
+          height: 24px;
+          object-fit: cover;
+          object-position: center;
+          margin: 0 16px;
+          cursor: pointer; }
+
+  .rights .rights-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header); }
+    .rights .rights-wrap .rigths-text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: var(--base-white);
+      margin: 30px 0; } }
+@media screen and (min-width: 744px) {
+  .footer .contacts {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: start;
+    gap: 50px;
+    padding: 48px 0; }
+    .footer .contacts .contacts-logo {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      margin: 0;
+      align-items: flex-start;
+      padding: 0; }
+      .footer .contacts .contacts-logo .contacts-p {
+        text-align: start; }
+    .footer .contacts .contacts-nav {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      margin: 0;
+      align-items: flex-start; }
+    .footer .contacts .socials {
+      grid-column: 3/4;
+      grid-row: 1/2;
+      margin: 0; } }
+
+/*# sourceMappingURL=footer.css.map */

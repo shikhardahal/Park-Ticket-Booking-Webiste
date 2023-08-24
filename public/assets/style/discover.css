@@ -1,0 +1,117 @@
+@media screen and (min-width: 375px) {
+  .discover {
+    background-color: var(--header);
+    background-image: url("../img/leaf.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 50%;
+    margin: 0 -16px; }
+    .discover .discover-wrap {
+      margin: 0 16px;
+      padding: 56px 0;
+      background-color: transparent;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto 1fr;
+      justify-content: center;
+      align-items: center; }
+      .discover .discover-wrap .pots-image {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-bottom: 16px; }
+        .discover .discover-wrap .pots-image .pots {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          object-position: center; }
+      .discover .discover-wrap .chairs-image {
+        grid-column: 1/2;
+        grid-row: 2/3; }
+        .discover .discover-wrap .chairs-image .chairs {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          object-position: center; }
+      .discover .discover-wrap .info-block {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center; }
+        .discover .discover-wrap .info-block .info-h2 {
+          font-family: "Libre Baskerville", serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 34px;
+          line-height: 37px;
+          text-align: center;
+          text-transform: capitalize;
+          color: var(--base-white);
+          margin: 24px 0; }
+        .discover .discover-wrap .info-block .info-p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: var(--base-white);
+          margin: 0 0 24px; }
+        .discover .discover-wrap .info-block .info-btn {
+          width: 165px;
+          height: 46px;
+          border: 2px solid var(--base-white);
+          color: var(--base-white);
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 16px;
+          letter-spacing: 0.15em;
+          text-transform: uppercase;
+          background-color: transparent; } }
+@media screen and (min-width: 744px) {
+  .discover .discover-wrap {
+    margin: 0 105px; }
+    .discover .discover-wrap .info-block {
+      align-items: flex-start; }
+      .discover .discover-wrap .info-block .info-h2 {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: start; }
+      .discover .discover-wrap .info-block .info-p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: start; }
+      .discover .discover-wrap .info-block .info-btn {
+        width: 185px;
+        height: 56px; } }
+@media screen and (min-width: 992px) {
+  .discover {
+    margin: 0 -50px; }
+    .discover .discover-wrap {
+      margin: 0 50px;
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto auto;
+      gap: 30px; }
+      .discover .discover-wrap .pots-image {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0; }
+      .discover .discover-wrap .info-block {
+        grid-column: 2/3;
+        grid-row: 1/2; }
+        .discover .discover-wrap .info-block .info-h2 {
+          margin: 0; }
+        .discover .discover-wrap .info-block .info-p {
+          margin: 32px 0; }
+      .discover .discover-wrap .chairs-image {
+        grid-column: 1/3;
+        grid-row: 2/3; } }
+@media screen and (min-width: 1140px) {
+  .discover {
+    margin: 0 -100px; }
+    .discover .discover-wrap {
+      margin: 0 100px;
+      gap: 50px; } }
+
+/*# sourceMappingURL=discover.css.map */

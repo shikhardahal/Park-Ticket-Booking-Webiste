@@ -1,0 +1,437 @@
+@media screen and (min-width: 375px) {
+  .news {
+    .news-wrap {
+      margin-top: 48px;
+      .news-title {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        .title-h2 {
+          font-family: "Libre Baskerville", serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 34px;
+          line-height: 37px;
+          text-align: center;
+          text-transform: capitalize;
+          margin: 16px 0;
+          color: var(--header);
+        }
+        .title-all-post {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 32px;
+          color: var(--primary);
+          .hr-line {
+            display: inline-block;
+            width: 48px;
+            height: 2px;
+            background-color: var(--primary);
+            opacity: 0.4;
+          }
+          .view {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin: 0 12px 0 20px;
+          }
+          .arrow {
+            width: 24px;
+            height: 24px;
+            object-fit: cover;
+            object-position: center center;
+          }
+        }
+      }
+      .big-card-wrap {
+        .plants {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto auto auto;
+          .plants-img {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center center;
+          }
+          .plants-span {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin: 20px 0 12px;
+            font-family: "Libre Baskerville", serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 25px;
+            text-align: center;
+            color: var(--primary);
+          }
+          .plants-p {
+            grid-column: 1/2;
+            grid-row: 3/4;
+            margin: 0 0 12px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: var(--text-body);
+          }
+          .plants-date {
+            grid-column: 1/2;
+            grid-row: 4/5;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: var(--text-body);
+          }
+        }
+        .small-card-wrap {
+          .lush {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto;
+            .lush-img {
+              grid-column: 1/2;
+              grid-row: 1/2;
+              margin: 20px 0;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              object-position: center;
+            }
+            .lush-span {
+                grid-column: 1/2;
+                grid-row: 2/3;
+              font-family: "Libre Baskerville", serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 23px;
+              line-height: 25px;
+              text-align: center;
+              color: var(--primary);
+            }
+            .lush-p {
+                grid-column: 1/2;
+                grid-row: 3/4;
+                margin: 12px 0;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: var(--text-body);
+            }
+            .lush-date {
+                grid-column: 1/2;
+                grid-row: 4/5;
+                margin-bottom: 20px;
+              font-style: italic;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: var(--text-body);
+            }
+          }
+          .exotic {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto;
+            border-top: 1px solid var(--news-block);
+            border-bottom: 1px solid var(--news-block);
+            .exotic-img {
+              grid-column: 1/2;
+              grid-row: 1/2;
+              margin: 20px 0;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              object-position: center;
+            }
+            .exotic-span {
+                grid-column: 1/2;
+                grid-row: 2/3;
+              font-family: "Libre Baskerville", serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 23px;
+              line-height: 25px;
+              text-align: center;
+              color: var(--primary);
+            }
+            .exotic-p {
+                grid-column: 1/2;
+                grid-row: 3/4;
+                margin: 12px 0;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: var(--text-body);
+            }
+            .exotic-date {
+                grid-column: 1/2;
+                grid-row: 4/5;
+                margin-bottom: 20px;
+              font-style: italic;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: var(--text-body);
+            }
+          }
+          .soil {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto;
+            .soil-img {
+              grid-column: 1/2;
+              grid-row: 1/2;
+              margin: 20px 0;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              object-position: center;
+            }
+            .soil-span {
+                grid-column: 1/2;
+                grid-row: 2/3;
+              font-family: "Libre Baskerville", serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 23px;
+              line-height: 25px;
+              text-align: center;
+              color: var(--primary);
+            }
+            .soil-p {
+                grid-column: 1/2;
+                grid-row: 3/4;
+                margin: 12px 0;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: var(--text-body);
+            }
+            .soil-date {
+                grid-column: 1/2;
+                grid-row: 4/5;
+                margin-bottom: 20px;
+              font-style: italic;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: var(--text-body);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 744px) {
+  .news {
+    .news-wrap {
+      margin-top: 65px;
+      .news-title  {
+        .title-h2 {
+          font-size: 45px;
+          line-height: 50px;
+        }
+      }
+      .big-card-wrap {
+        .plants {
+          grid-template-columns: 1.5fr 1fr;
+          grid-template-rows: 1fr auto 1fr;
+          column-gap: 24px;
+          justify-items: start;
+          margin-bottom: 20px;
+          .plants-img {
+            grid-column: 1/2;
+            grid-row: 1/4;
+          }
+          .plants-span {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            text-align: start;
+          }
+          .plants-p {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            text-align: start;
+          }
+          .plants-date {
+            grid-column: 2/3;
+            grid-row: 3/4;
+            text-align: start;
+          }
+        }
+        .small-card-wrap {
+          .lush {
+            grid-template-columns: 1fr 1.7fr;
+            grid-template-rows: 1fr auto 1fr;
+            column-gap: 20px;
+            justify-items: start;
+            align-items: center;
+            padding: 20px 0;
+            .lush-img {
+              grid-column: 1/2;
+              grid-row: 1/4;
+              margin: 0;
+            }
+            .lush-span {
+              grid-column: 2/3;
+              grid-row: 1/2;
+            }
+            .lush-p {
+              grid-column: 2/3;
+              grid-row: 2/3;
+              margin: 0;
+              text-align: start;
+              width: 75%;
+            }
+            .lush-date {
+              grid-column: 2/3;
+              grid-row: 3/4;
+              margin: 0;
+              text-align: start;
+            }
+          }
+          .exotic {
+            grid-template-columns: 1fr 1.7fr;
+            grid-template-rows: 1fr auto 1fr;
+            column-gap: 20px;
+            justify-items: start;
+            align-items: center;
+            padding: 20px 0;
+            .exotic-img {
+              grid-column: 1/2;
+              grid-row: 1/4;
+              margin: 0;
+            }
+            .exotic-span {
+              grid-column: 2/3;
+              grid-row: 1/2;
+            }
+            .exotic-p {
+              grid-column: 2/3;
+              grid-row: 2/3;
+              margin: 0;
+              text-align: start;
+              width: 75%;
+            }
+            .exotic-date {
+              grid-column: 2/3;
+              grid-row: 3/4;
+              margin: 0;
+              text-align: start;
+            }
+          }
+          .soil {
+            grid-template-columns: 1fr 1.7fr;
+            grid-template-rows: 1fr auto 1fr;
+            column-gap: 20px;
+            justify-items: start;
+            align-items: center;
+            padding: 20px 0;
+            .soil-img {
+              grid-column: 1/2;
+              grid-row: 1/4;
+              margin: 0;
+            }
+            .soil-span {
+              grid-column: 2/3;
+              grid-row: 1/2;
+            }
+            .soil-p {
+              grid-column: 2/3;
+              grid-row: 2/3;
+              margin: 0;
+              text-align: start;
+              width: 75%;
+            }
+            .soil-date {
+              grid-column: 2/3;
+              grid-row: 3/4;
+              margin: 0;
+              text-align: start;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .news {
+    .news-wrap {
+      margin-top: 86px;
+      .big-card-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 50px;
+        .plants {
+          grid-column: 1/2;
+          grid-row: 1/2;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto auto auto;
+          align-items: start;
+          margin: 0;
+          .plants-img {
+            grid-column: 1/2;
+            grid-row: 1/2;
+          }
+          .plants-span {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin: 20px 0 0 24px;
+          }
+          .plants-p {
+            grid-column: 1/2;
+            grid-row: 3/4;
+            margin: 0 0 0 24px;
+          }
+          .plants-date {
+            grid-column: 1/2;
+            grid-row: 4/5;
+            margin: 0 0 20px 24px;
+          }
+        }
+        .small-card-wrap {
+          grid-column: 2/3;
+          grid-row: 1/2;
+          .lush {
+            padding: 0 0 20px 0;
+            grid-template-columns: 1fr 1.2fr;
+          }
+          .exotic {
+            grid-template-columns: 1fr 1.2fr;
+          }
+          .soil {
+            grid-template-columns: 1fr 1.2fr;
+          }
+        }
+      }
+    }
+  }
+}
